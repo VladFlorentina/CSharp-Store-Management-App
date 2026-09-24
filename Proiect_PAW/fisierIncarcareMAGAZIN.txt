@@ -1,0 +1,7 @@
+345, Mega Image, Str. Soarelui, 10:00-19:00, 12, Da
+211, Profi, Str. Aliorului, 07:00-23:00, 23, Nu
+178, Carrefour Market, Str. Cartieruliui, 08:00-23:00, 20, Nu
+278, Mega Image, Str. Libertatii, nonstop, 32, Da
+310, Elegant, Str. Roman Musat, 07:00-17:00, 5, Nu
+745, Sevda, Str. Dobrogeanu Gherea, 09:00-21:00, 6, Nu
+654, Profi, Str. Libertatii, nonstop, 18, Da

@@ -1,0 +1,7 @@
+23, lactate, Mircea Alina
+45, fructe si legume, Popescu Vlad
+11, carne, Angelescu Mirela
+56, bauturi alcoolice, Ionescu Adriana
+21, congelate, Chitimus Claudiu
+87, papetarie, Pascal Corina
+49, electronice, Trifan Simona
