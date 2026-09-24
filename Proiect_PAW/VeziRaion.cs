@@ -13,7 +13,7 @@ namespace Proiect_PAW
 {
     public partial class VeziRaion : Form
     {
-        private ListViewItem draggedItem; // DECLARAȚIA AICI, CA MEMBRU AL CLASEI
+        private ListViewItem draggedItem;
 
         public VeziRaion(List<Raioane> listaraiaone)
         {
@@ -211,7 +211,7 @@ namespace Proiect_PAW
                     listViewRaion.Items.RemoveAt(droppedIndex);
                     listViewRaion.Items.Insert(targetIndex, droppedItem);
                 }
-                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit (poți modifica această logică)
+                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit
                 else if (targetItem == null)
                 {
                     listViewRaion.Items.Remove(droppedItem);

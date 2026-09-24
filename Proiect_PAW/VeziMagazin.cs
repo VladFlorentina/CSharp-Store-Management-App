@@ -15,7 +15,7 @@ namespace Proiect_PAW
 {
     public partial class VeziMagazin : Form
     {
-        private ListViewItem draggedItem; // DECLARAȚIA AICI
+        private ListViewItem draggedItem;
 
         public VeziMagazin(List<Magazine> listamagazine)
         {
@@ -277,7 +277,7 @@ namespace Proiect_PAW
                 Point dropPoint = listViewMagazin.PointToClient(new Point(e.X, e.Y));
 
                 // Obține indexul elementului de sub punctul de fixare
-                ListViewItem targetItem = listViewMagazin.GetItemAt(dropPoint.X, dropPoint.Y); // MODIFICAREA AICI
+                ListViewItem targetItem = listViewMagazin.GetItemAt(dropPoint.X, dropPoint.Y);
 
                 // Dacă s-a fixat pe un alt element (nu pe spațiul gol)
                 if (targetItem != null && droppedItem != targetItem)
@@ -290,7 +290,7 @@ namespace Proiect_PAW
                     listViewMagazin.Items.RemoveAt(droppedIndex);
                     listViewMagazin.Items.Insert(targetIndex, droppedItem);
                 }
-                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit (poți modifica această logică)
+                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit
                 else if (targetItem == null)
                 {
                     listViewMagazin.Items.Remove(droppedItem);

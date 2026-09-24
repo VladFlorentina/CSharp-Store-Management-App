@@ -224,7 +224,7 @@ namespace Proiect_PAW
                     listViewDesfaceri.Items.RemoveAt(droppedIndex);
                     listViewDesfaceri.Items.Insert(targetIndex, droppedItem);
                 }
-                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit (poți modifica această logică)
+                // Dacă s-a fixat pe spațiul gol, adaugă-l la sfârșit
                 else if (targetItem == null)
                 {
                     listViewDesfaceri.Items.Remove(droppedItem);
